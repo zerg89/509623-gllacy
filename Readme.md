@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Андрей Zerg](https://up.htmlacademy.ru/htmlcss/20/user/509623).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Попенко](https://htmlacademy.ru/profile/id66243).
 
 ---
 
