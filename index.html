@@ -1,12 +1,12 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-	<div class="container">
-		<header>
+	<header>
+		<div class="container">
 			<img src="http://placehold.it/150x100" alt="Gllacy Shop" width="154" height="64">
 			<nav>
 				<ul class="header-menu">
@@ -46,11 +46,125 @@
 					<a href="#">Пусто</a>
 				</li>
 			</ul>
-		</header>
-		<div class="contact-info">
-			<span>С 10 до 20, ежедневно</span>
-			<span>8 812 450-25-25</span>
+			<div class="contact-info">
+				<span>С 10 до 20, ежедневно</span>
+				<span>8 812 450-25-25</span>
+			</div>
 		</div>
-	</div>
+	</header>
+		<section class="slider">
+			<div class="container">
+				<ul>
+					<li class="first-slide">
+						<img src="http://placehold.it/150x100" alt="Крем-брюле" width="150" height="64">
+						<b>Крем-брюле и промбир с малиновым джемом</b>
+						<a href="#">Дайте оба!</a>
+					</li>
+					<li class="second-slide">
+						<img src="http://placehold.it/150x100" alt="Шоколадный пломбир и лимонный сорбет" width="150" height="64">
+						<a href="#">Дайте оба!</a>
+					</li>
+					<li class="third-slide">
+						<img src="http://placehold.it/150x100" alt="Пломбир с помадкой и клубничный щербет" width="150" height="64">
+						<a href="#">Дайте оба!</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="banners">
+			<!-- <h2>Акции с мороженным</h2> в css пропишу свойство hidden -->
+			<div class="container">
+				<ul>
+					<li>
+						<p>Малинка даром!</p>
+						<span>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
+	 					</span>
+	 					<a href="#">Хочу варенье!</a>
+					</li>
+					<li>
+						<p>Шоколадки даром!</p>
+						<span>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
+	 					</span>
+	 					<a href="#">Хочу шоколадки!</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="popular-icecream">
+			<!-- <h2>Популярные товары</h2> в css пропишу свойство hidden -->
+			<div class="container">
+				<ul>
+					<li>
+						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
+						<p class="price-icecream">310 Р<span>/кг</span></p>
+						<h3>Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+					</li>
+					<li>
+						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
+						<p class="price-icecream">380 Р<span>/кг</span></p>
+						<h3>Сливочно-кофейное с кусочками шоколада</h3>
+					</li>
+					<li>
+						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
+						<p class="price-icecream">355 Р<span>/кг</span></p>
+						<h3>Сливочно-клубничное с присыпкой из белого шоколада</h3>
+					</li>
+					<li>
+						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
+						<p class="price-icecream">415 Р<span>/кг</span></p>
+						<h3>Сливочное крем-брюле с карамельной подливкой</h3>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="about-us">
+			<div class="container">
+				<h2>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+				<ul> <!-- Сами иконки буду подключать через css с помощь nth-child -->
+					<li>
+						<p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+					</li>
+					<li>
+						<p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+					</li>
+					<li>
+						<p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+					</li>
+					<li>
+						<p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<div class="container">
+			<article class="blog">
+				<p>Новое в нашем блоге</p>
+				<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+			</article>
+			<article class="subscribe">
+				<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+			</article>
+		</div>
+		<iframe src="https://yandex.ru/map-widget/v1/-/CBa75Yq5WA" width="1200" height="430" frameborder="0"></iframe>
+		<div class="container">
+			<footer>
+				<ul class="social">
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">instagram</a></li>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">vk</a></li>
+				</ul>
+				<ul class="menu-footer">
+					<li><a href="#">Для поставщиков</a></li>
+					<li><a href="#">О производстве</a></li>
+					<li><a href="#">Наши документы</a></li>
+					<li><a href="#">Экологические стандарты</a></li>
+				</ul>
+				<ul>
+					<li><img src="http://placehold.it/150x100" alt="HTMLAcademy" width="150" height="64"></li>
+					<li><p>Сделано в <a href="#">HTMLAcademy</a>© 2017</p></li>
+				</ul>
+			</footer>
+		</div>
   </body>
 </html>
