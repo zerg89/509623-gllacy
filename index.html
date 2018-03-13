@@ -7,7 +7,7 @@
   <body>
 	<header>
 		<div class="container">
-			<img src="http://placehold.it/150x100" alt="Gllacy Shop" width="154" height="64">
+			<a href="index.html"><img src="http://placehold.it/150x100" alt="Gllacy Shop" width="154" height="64"></a>
 			<nav>
 				<ul class="header-menu">
 					<li>
@@ -40,6 +40,9 @@
 			</nav>
 			<ul class="user-block">
 				<li>
+					<a href="#">Поиск</a>
+				</li>
+				<li>
 					<a href="#">Вход</a>
 				</li>
 				<li>
@@ -47,8 +50,8 @@
 				</li>
 			</ul>
 			<div class="contact-info">
-				<span>С 10 до 20, ежедневно</span>
-				<span>8 812 450-25-25</span>
+				<p>С 10 до 20, ежедневно</p>
+				<p>8 812 450-25-25</p>
 			</div>
 		</div>
 	</header>
@@ -71,45 +74,45 @@
 				</ul>
 			</div>
 		</section>
-		<section class="banners">
+		<section class="banners visually-hidden">
 			<!-- <h2>Акции с мороженным</h2> в css пропишу свойство hidden -->
 			<div class="container">
 				<ul>
 					<li>
-						<p>Малинка даром!</p>
-						<span>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
-	 					</span>
+						<h3>Малинка даром!</h3>
+						<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
+	 					</p>
 	 					<a href="#">Хочу варенье!</a>
 					</li>
 					<li>
-						<p>Шоколадки даром!</p>
-						<span>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
-	 					</span>
+						<h3>Шоколадки даром!</h3>
+						<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
+	 					</p>
 	 					<a href="#">Хочу шоколадки!</a>
 					</li>
 				</ul>
 			</div>
 		</section>
-		<section class="popular-icecream">
-			<!-- <h2>Популярные товары</h2> в css пропишу свойство hidden -->
+		<section class="popular">
+			<h2 class="visually-hidden">Популярные товары</h2>
 			<div class="container">
-				<ul>
-					<li>
+				<ul class="popular-list">
+					<li class="popular-item">
 						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
 						<p class="price-icecream">310 Р<span>/кг</span></p>
 						<h3>Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
 					</li>
-					<li>
+					<li class="popular-item">
 						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
 						<p class="price-icecream">380 Р<span>/кг</span></p>
 						<h3>Сливочно-кофейное с кусочками шоколада</h3>
 					</li>
-					<li>
+					<li class="popular-item">
 						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
 						<p class="price-icecream">355 Р<span>/кг</span></p>
 						<h3>Сливочно-клубничное с присыпкой из белого шоколада</h3>
 					</li>
-					<li>
+					<li class="popular-item">
 						<img src="http://placehold.it/150x100" alt="" width="150" height="64">
 						<p class="price-icecream">415 Р<span>/кг</span></p>
 						<h3>Сливочное крем-брюле с карамельной подливкой</h3>
@@ -145,7 +148,7 @@
 				<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
 			</article>
 		</div>
-		<iframe src="https://yandex.ru/map-widget/v1/-/CBa75Yq5WA" width="1200" height="430" frameborder="0"></iframe>
+		<div class="map"></div> <!-- Оставил пустое место для карты -->
 		<div class="container">
 			<footer>
 				<ul class="social">
@@ -160,10 +163,7 @@
 					<li><a href="#">Наши документы</a></li>
 					<li><a href="#">Экологические стандарты</a></li>
 				</ul>
-				<ul>
-					<li><img src="http://placehold.it/150x100" alt="HTMLAcademy" width="150" height="64"></li>
-					<li><p>Сделано в <a href="#">HTMLAcademy</a>© 2017</p></li>
-				</ul>
+				<p class="footer-logo">Сделано в <a href="#">HTMLAcademy</a>© 2017</p>
 			</footer>
 		</div>
   </body>

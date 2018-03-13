@@ -40,35 +40,38 @@
 			</nav>
 			<ul class="user-block">
 				<li>
+					<a href="#">Поиск</a>
+				</li>
+				<li>
 					<a href="#">Вход</a>
 				</li>
 				<li>
-					<a href="#">Пусто</a>
+					<a href="#">2 товара</a>
 				</li>
 			</ul>
 			<div class="contact-info">
-				<span>С 10 до 20, ежедневно</span>
-				<span>8 812 450-25-25</span>
+				<p>С 10 до 20, ежедневно</p>
+				<p>8 812 450-25-25</p>
 			</div>
 		</div>
 	</header>
 	<div class="conainer">
-		<nav>
-			<ul class="nav-menu">
-				<li><a href="#">Главная ></a></li>
-				<li><a href="#">Каталог ></a></li>
-				<li><a href="#">Сливочное</a></li>
+		<div class="breadcrumbs">
+			<ul class="breadcrumbs-list">
+				<li class="breadcrumbs-item"><a href="#">Главная ></a></li>
+				<li class="breadcrumbs-item"><a href="#">Каталог ></a></li>
+				<li class="breadcrumbs-item"><a href="#">Сливочное</a></li>
 			</ul>
-		</nav>
+		</div>
 		<section class="section-title">
-			<h2>Сливочное мороженое</h2>
+			<h1>Сливочное мороженое</h1>
 		</section>
 		<section class="form-characteristic">
 			<!-- Оставляю пустой раздел для форм -->
 		</section>
 		<section class="products">
-			<!-- <h2>Каталог мороженого</h2> Позже скрою этот элемент в css -->
-			<ul class="products-menu">
+			<h2 class="visually-hidden">Каталог мороженого</h2> <!-- Позже скрою этот элемент в css -->
+			<ul class="products-list">
 				<li>
 					<img src="http://placehold.it/150x100" alt="" width="150" height="64">
 					<p class="price-icecream">310 Р<span>/кг</span></p>
@@ -136,7 +139,7 @@
 				</li>
 			</ul>
 		</section>
-		<div class="pages">
+		<div class="paginator">
 			<ul>
 				<li><a href="#">1</a></li>
 				<li><a href="#">2</a></li>
@@ -163,10 +166,7 @@
 				<li><a href="#">Наши документы</a></li>
 				<li><a href="#">Экологические стандарты</a></li>
 			</ul>
-			<ul>
-				<li><img src="http://placehold.it/150x100" alt="HTMLAcademy" width="150" height="64"></li>
-				<li><p>Сделано в <a href="#">HTMLAcademy</a>© 2017</p></li>
-			</ul>
+			<p class="footer-logo">Сделано в <a href="#">HTMLAcademy</a>© 2017</p>
 		</footer>
 	</div>
   </body>
