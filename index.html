@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Глейси</title>
@@ -43,13 +43,13 @@
 			</nav>
 			<ul class="user-block">
 				<li>
-					<a href="#">Поиск</a>
+					<a href="#" class="search">Поиск</a>
 				</li>
 				<li>
-					<a href="#">Вход</a>
+					<a href="#" class="enter">Вход</a>
 				</li>
 				<li>
-					<a href="#">Пусто</a>
+					<a href="#" class="basket">Пусто</a>
 				</li>
 			</ul>
 			<div class="contact-info">
@@ -62,33 +62,35 @@
 			<div class="container">
 				<ul>
 					<li class="first-slide">
-						<img src="img/icecream-slide-1.png" alt="Крем-брюле" width="1045" height="881">
+						<img src="img/icecream-slide-1.png" alt="Крем-брюле и промбир с малиновым джемом" width="1045" height="881">
 						<b>Крем-брюле и промбир с малиновым джемом</b>
-						<a href="#">Дайте оба!</a>
+						<a href="#">Давайте оба!</a>
 					</li>
 					<li class="second-slide">
 						<img src="img/icecream-slide-2.png" alt="Шоколадный пломбир и лимонный сорбет" width="1045" height="881">
-						<a href="#">Дайте оба!</a>
+						<b>Шоколадный пломбир и лимонный сорбет</b>
+						<a href="#">Давайте оба!</a>
 					</li>
 					<li class="third-slide">
 						<img src="img/icecream-slide-3.png" alt="Пломбир с помадкой и клубничный щербет" width="1045" height="881">
-						<a href="#">Дайте оба!</a>
+						<b>Пломбир с помадкой и клубничный щербет</b>
+						<a href="#">Давайте оба!</a>
 					</li>
 				</ul>
 			</div>
 		</section>
 		<section class="banners visually-hidden">
-			<!-- <h2>Акции с мороженным</h2> в css пропишу свойство hidden -->
+			<h2>Акции с мороженным</h2> в css пропишу свойство hidden
 			<div class="container">
-				<ul>
-					<li>
+				<ul class="banners-list">
+					<li class="banners-items">
 						<!-- бэкграунд залью через css -->
 						<h3>Малинка даром!</h3>
 						<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
 	 					</p>
 	 					<a href="#">Хочу варенье!</a>
 					</li>
-					<li>
+					<li class="banners-items">
 						<!-- бэкграунд залью через css -->
 						<h3>Шоколадки даром!</h3>
 						<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
@@ -146,14 +148,18 @@
 			</div>
 		</section>
 		<div class="container">
-			<article class="blog">
-				<!-- бэкграунд залью через css -->
-				<p>Новое в нашем блоге</p>
-				<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
-			</article>
-			<article class="subscribe">
-				<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-			</article>
+			<div>
+				<article class="blog">
+					<!-- бэкграунд залью через css -->
+					<p>Новое в нашем блоге</p>
+					<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+				</article>
+				<div class="mail-bg">
+					<article class="subscribe">
+						<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+					</article>
+				</div>
+			</div>
 		</div>
 		<div class="map"></div> <!-- Оставил пустое место для карты -->
 		<div class="container">
