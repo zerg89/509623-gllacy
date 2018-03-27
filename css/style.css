@@ -16,19 +16,49 @@ ul{
 	list-style: none;
 }
 
+.container{
+	width: 1146px;
+	margin: 0 auto;
+}
+
+.hidden{
+	display: none;
+}
+
 .visually-hidden{
 	visibility: hidden;
+}
+
+header{
+	height: 125px;
+	background-color: rgba(255,153,153, 0.8);
+}
+
+header img{
+	float: left;
+	background-color: aqua;
 }
 
 .header-menu{
 	font-weight: bold;
 	line-height: 18px;
+	background-color: rgba(153,160,255, 0.8);
+	float: left;
+}
+.header-menu li{
+	display: inline-block;
 }
 
 .user-block{
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 16px;
+	background-color: rgba(216, 192, 57, 0.8);
+	display: inline-block;
+}
+
+.user-block li{
+	float: left;
 }
 
 .search{
@@ -71,6 +101,8 @@ ul{
 
 .contact-info{
 	font-weight: bold;
+	float: right;
+	background-color: green;
 }
 
 .contact-info p:nth-child(1){
@@ -94,6 +126,13 @@ ul{
 	line-height: 41px;
 }
 
+.slider{
+	height: 525px;
+	float: left;
+	background-color: rgba(216, 192, 57, 0.8);
+
+}
+
 .slider li{
 	font-size: 32px;
 	font-weight: bold;
@@ -109,6 +148,7 @@ ul{
 .banners{
 	font-weight: bold;
 	color: #fff;
+	float: left;
 }
 
 .banners-items{
